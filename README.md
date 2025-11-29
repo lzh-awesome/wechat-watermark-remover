@@ -16,7 +16,7 @@
 
 | 原图 | 去水印后 |
 |------|---------|
-| ![原图](docs/before.jpg) | ![去水印后](docs/after.jpg) |
+| ![原图](materials/5.jpg) | ![去水印后](materials_result/5.jpg) |
 
 ## 📋 环境要求
 
@@ -198,7 +198,7 @@ python remove_anything_improved_v2.0.py \
 
 ```
 wechat-watermark-remover/
-├── remove_watermark.py          # 主程序
+├── remove_anything_improved_v2.0.py          # 主程序
 ├── sam_segment.py                # SAM 分割模块
 ├── lama_inpaint.py              # LaMa 修复模块
 ├── utils/                        # 工具函数
