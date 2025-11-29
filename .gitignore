@@ -52,8 +52,6 @@ uploads/
 *.log
 
 # Test files
-materials/
-materials_result/
 tmp/
 temp/
 
