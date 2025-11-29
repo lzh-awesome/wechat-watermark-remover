@@ -1,3 +1,6 @@
+# .gitignore 是 Git 用来 指定哪些文件或目录不应被纳入版本控制 的配置文件
+
+
 # Python
 __pycache__/
 *.py[cod]

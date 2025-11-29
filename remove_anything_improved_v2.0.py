@@ -178,7 +178,7 @@ def setup_args(parser):
 if __name__ == "__main__":
     """Example usage:
     # 使用交互式选择模式（推荐！）
-    python remove_anything.py \
+    python remove_anything_improved_v2.0.py \
         --input_img ./materials/3.jpg \
         --coords_type interactive \
         --dilate_kernel_size 25 \
@@ -189,7 +189,7 @@ if __name__ == "__main__":
         --lama_ckpt ./pretrained_models/big-lama
 
     # 使用框选模式（已知坐标）
-    python remove_anything.py \
+    python remove_anything_improved_v2.0.py \
         --input_img ./materials/3.jpg \
         --coords_type box \
         --box_coords 700 1180 850 1240 \
