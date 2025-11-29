@@ -81,10 +81,10 @@ pretrained_models/
 最简单直观的方式，直接在图片上框选水印区域：
 
 ```bash
-python remove_watermark.py \
+python remove_anything_improved_v2.0.py \
     --input_img ./materials/your_image.jpg \
     --coords_type interactive \
-    --dilate_kernel_size 25 \
+    --dilate_kernel_size 10 \
     --output_dir ./outputs \
     --sam_model_type "vit_b" \
     --sam_ckpt ./pretrained_models/sam_vit_b_01ec64.pth \
@@ -105,7 +105,7 @@ python remove_watermark.py \
 如果你已知水印的坐标位置：
 
 ```bash
-python remove_watermark.py \
+python remove_anything_improved_v2.0.py \
     --input_img ./materials/your_image.jpg \
     --coords_type box \
     --box_coords 700 1180 850 1240 \
@@ -124,7 +124,7 @@ python remove_watermark.py \
 在水印的多个位置点击，提高精度：
 
 ```bash
-python remove_watermark.py \
+python remove_anything_improved_v2.0.py \
     --input_img ./materials/your_image.jpg \
     --coords_type key_in \
     --point_coords 730 1210 800 1210 730 1250 \
@@ -142,7 +142,7 @@ python remove_watermark.py \
 在水印中心点击一次：
 
 ```bash
-python remove_watermark.py \
+python remove_anything_improved_v2.0.py \
     --input_img ./materials/your_image.jpg \
     --coords_type key_in \
     --point_coords 730 1210 \
@@ -248,10 +248,10 @@ A: 支持常见格式：JPG, PNG, BMP, WEBP 等
 
 如有问题或建议，欢迎提交 Issue 或通过以下方式联系：
 
-- GitHub Issues: [项目 Issues 页面](https://github.com/你的用户名/wechat-watermark-remover/issues)
+- GitHub Issues: [项目 Issues 页面](https://github.com/lzh-awesome/wechat-watermark-remover/issues)
 
 ## ⭐ Star History
 
 如果这个项目对你有帮助，欢迎点个 Star ⭐
 
-[![Star History Chart](https://api.star-history.com/svg?repos=你的用户名/wechat-watermark-remover&type=Date)](https://star-history.com/#你的用户名/wechat-watermark-remover&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=lzh-awesome/wechat-watermark-remover&type=Date)](https://star-history.com/#lzh-awesome/wechat-watermark-remover&Date)
