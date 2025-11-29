@@ -30,7 +30,7 @@
 ### 1. 克隆项目
 
 ```bash
-git clone https://github.com/你的用户名/wechat-watermark-remover.git
+git clone https://github.com/lzh-awesome/wechat-watermark-remover.git
 cd wechat-watermark-remover
 ```
 
