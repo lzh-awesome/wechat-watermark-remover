@@ -16,7 +16,7 @@
 
 | 原图 | 去水印后 |
 |------|---------|
-| ![原图](materials/5.jpg) | ![去水印后](materials_result/5.jpg) |
+| ![原图](materials/5.jpg) | ![去水印后](materials_result/5.png) |
 
 ## 📋 环境要求
 
